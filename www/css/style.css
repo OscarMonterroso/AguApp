@@ -1,0 +1,581 @@
+/* Empty. Add your own CSS if you like */
+.menu{
+  background: url("https://www.metropolitanapisos.com.uy/wp-content/uploads/2016/06/cesped-jardin.jpg")no-repeat;
+  background-size:center;
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration-color: none;
+}
+.efecto:hover{
+    background: #2D760A;
+    color:#000000 !important;
+}
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  background-color: #DABDD8;
+}
+.fondoagua{
+  background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/08/51/5958141bd0d740f.jpg")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.contenido{
+  width: auto;
+    height: auto;
+    border-radius: 20%;
+    background: transparent;
+    text-align: center;
+    color: white
+}
+p{
+  padding: 2%
+}
+/*estilo adn*/
+
+ @-webkit-keyframes spinner {
+   from {
+     -webkit-transform: rotateY(0deg);
+   }
+   to {
+     -webkit-transform: rotateY(-360deg);
+   }
+ }
+
+ /* all other browsers */
+
+@keyframes spinner {
+   from {
+     -moz-transform: rotateY(0deg);
+     -ms-transform: rotateY(0deg);
+     transform: rotateY(0deg);
+   }
+   to {
+     -moz-transform: rotateY(360deg);
+     -ms-transform: rotateY(360deg);
+     transform: rotateY(360deg);
+   }
+ }
+
+ #stage {
+   margin: 1em auto;
+   -webkit-perspective: 1400px;
+   -moz-perspective: 1400px;
+   -ms-perspective: 1400px;
+   perspective:1400px;
+
+   /* Safari */
+-webkit-transform: rotate(-0deg);
+
+/* Firefox */
+-moz-transform: rotate(-0deg);
+
+/* IE */
+-ms-transform: rotate(-0deg);
+
+/* Opera */
+-o-transform: rotate(-0deg);
+ }
+
+ #spinner *{
+   -webkit-animation-name: spinner;
+   -webkit-animation-timing-function:linear;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-duration: 6s;
+   animation-name: spinner;
+
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+ }
+
+#spinner *:nth-child(1) {
+  animation-delay: -1.9s;
+}
+
+#spinner *:nth-child(2) {
+  animation-delay: -2s;
+}
+
+#spinner *:nth-child(3) {
+  animation-delay: -2.3s;
+}
+
+#spinner *:nth-child(4) {
+  animation-delay: -2.4s;
+}
+
+#spinner *:nth-child(5) {
+  animation-delay: -2.6s;
+}
+
+#spinner *:nth-child(6) {
+  animation-delay: -2.8s;
+}
+
+#spinner *:nth-child(7) {
+  animation-delay: -3.0s;
+}
+
+#spinner *:nth-child(8) {
+  animation-delay: -3.2s;
+}
+
+#spinner *:nth-child(9) {
+  animation-delay: -3.4s;
+}
+
+ #spinner:hover {
+   -webkit-animation-play-state: paused;
+   animation-play-state: paused;
+ }
+
+span.grey {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 3px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.green {
+  background: #5EA226;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.blue {
+  background: #E89656;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 3px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.pink {
+  background:#FAB078;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.1em;
+}
+.lineas{
+  color: #F91602;
+}
+.lineas2{
+  color: #172F9B;
+}
+.fondoadn{
+  background: url("https://i.pinimg.com/originals/91/45/55/914555d899f4c333cc1c345f681bf0ac.jpg")no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+/* estiolo de la vista de login*/
+.fondologin{
+  background: url("https://www.aquariumcostadealmeria.com/wp-content/uploads/2018/02/fondo-arenoso-1.jpg")no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.divisionform{
+  
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: white;
+  
+  border-radius: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top:20%;
+}
+.Aguapp{
+  font-size:48px;
+  color:white;
+}
+.usuarioC{
+  width: 100%;
+  background: none;
+  border:3px solid white  !important;
+  border-radius:40px !important;
+}
+.usuarioC2{
+  width: 100%;
+  background: none;
+  border:1px solid #000000 !important;
+  border-radius:20px !important;
+}
+.registrar{
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+  color: #FFF;
+  background: #616f39;
+}
+/*estilo de los videos*/
+.conta{
+    width:100%;
+    height:250px;
+    padding:10% !important;
+}
+/*infografia*/
+.info{
+    padding: 3%
+
+}
+.ejemplo{
+  width: 100%;
+  height: 180px;
+}
+.ejemplo2{
+  width: 200px;
+  height: 272px !important;
+}
+.teoria{
+  background: transparent;
+  color:green;
+}
+.teoria2{
+  background: transparent;
+  color:white;
+}
+.reproduccion{
+  color: blue;
+  background:white;
+  padding: 1px;
+  text-align: center;
+}
+.foninfo{
+    background: url("https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2017/10/25/star_wars_explica_la_reproduccion_humana2.jpg");
+    background-size: cover;
+}
+{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  max-width: 100%;
+}
+.bioimagen{
+ size: 100%;
+}
+.{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FF9090;
+}
+
+.todo {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+} 
+
+.titulo {
+   font-size: 80px;
+   font-family: Lucida Console, Courier, monospace;
+   color: rgb(217, 103, 29);
+  
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 20px;
+}
+.memoria{
+
+  margin: 50px auto;
+
+  border-radius: 10px;
+  position: relative;
+  background: #FFFA62;
+}
+
+.memoria:after  {
+  content: "";
+  display: block;
+  clear: both;
+}
+ 
+.carta {
+  width: 14%;
+  margin: 1% 1%;
+  height: 150px;
+  border-radius: 8px;
+  float: left;
+  cursor: pointer;
+  
+  
+}
+
+.inner-wrap {
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s;.
+  -webkit-transition: all 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+
+.frente {
+  background: #FFCF7F top center;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  z-index: 2;
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  transition: background 0.5s;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+
+}
+
+.frente, .atras {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.atras {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.30);
+  
+}
+
+.contador p {
+    font-size: 30px;
+    font-family: Lucida Console, Courier, monospace;
+    color: rgb(217, 103, 29);
+}
+
+.contador {
+    position: absolute;
+    right: -185px;
+    top: 58px;
+}
+p.counter {
+    text-align: center;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+
+.todo > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.frente:hover {
+  background: #E8A868;
+  cursor: pointer;
+}
+.memoria{
+  background: #000000;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-gap: 10px;
+  width: auto;
+  margin:50px auto;
+}
+
+.carta{
+  background: #BF0000;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: background 1s;
+}
+.carta:hover {
+  background: #790000;
+  cursor: pointer;
+}
+
+.carta.A {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/La_Boqueria.JPG/300px-La_Boqueria.JPG)no-repeat;
+  pointer-events: none;
+}
+.carta.A::after{
+  content: 'A';
+  font-size: 45px;
+}
+.carta.B {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.B::after{
+  content: 'B';
+  font-size: 45px;
+}
+.carta.C {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.C::after{
+  content: 'C';
+  font-size: 45px;
+}
+.carta.D {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.D::after{
+  content: 'D';
+  font-size: 45px;
+}
+.carta.E {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.E::after{
+  content: 'E';
+  font-size: 45px;
+}
+.carta.F {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.F::after{
+  content: 'F';
+  font-size: 45px;
+}
+.carta.G {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.G::after{
+  content: 'G';
+  font-size: 45px;
+}
+.carta.H {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.H::after{
+  content: 'H';
+  font-size: 45px;
+}
+.carta.A.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.B.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.C.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.D.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.E.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.F.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.G.par {
+ background: #00871C;
+ pointer-events: none;
+}
+
+.carta.H.par {
+  background: #00871C;
+  pointer-events: none;
+}
+.wins {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 80px;
+}
+
+.block {
+  background: #78bec5;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  position: absolute;
+  border-radius: 10px;
+  transition: background 1s;
+}
+
